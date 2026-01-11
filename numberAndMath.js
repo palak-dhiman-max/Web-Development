@@ -1,5 +1,4 @@
 
-
 //print upto tow decimal place
 let  a = 45;
 let b = 234.98765;
