@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(100deg,rgb(68, 68, 243),
+    violet);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vh;
+} 
+
+h1{
+    margin: 20px;
+}
+.h{
+    color: rgb(113, 7, 113);
+}
+
+.input{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(233, 205, 233);
+    border-radius: 10px;
+}
+
+.input input{
+    margin-top: 30px;
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn{
+    height: 40px;
+    width: 90px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(250, 190, 200);
+}
+
+.container{
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+.ans{
+    margin: 20px;
+}
