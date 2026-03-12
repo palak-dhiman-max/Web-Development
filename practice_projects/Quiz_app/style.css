@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.app{
+    max-width: 600px;
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+    
+}
+.element{
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.Subject{
+    height: 50px;
+    width: 500px;
+    border-bottom: 1px solid black;
+    
+}
+.btn{
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px ;
+    text-align: left;
+
+}
+
+/* "not([diabled]) iska matlab hai not ke andar jo condition likhi hai disable to
+ agar koi button diable hai to uspe hover effect apply mat karna*/
+ 
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.correct{
+    background-color: rgb(89, 210, 89);
+}
+
+.incorrect{
+    background-color: rgb(255, 79, 79);
+}
+
+.next-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+      color: white;
+      text-align: center;
+      margin-left: 32%;
+      justify-content: center;
+      margin-top: 10px;
+      display: none;
+}
