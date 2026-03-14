@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
+
+</head>
+<body>
+
+    <div class="box">
+        <h2>Quote of the day</h2>
+
+        <div class="quote">Loading.....</div>
+        <span class="author">loading....</span>
+
+
+        <div class="btn">  <button class="btn1">New Quote</button>
+        <button class="twit"><img src="data:image/png;base64,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" alt="">Tweet</button></div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
