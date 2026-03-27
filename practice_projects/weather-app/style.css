@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+    background-image: url("https://images.stockcake.com/public/0/8/b/08bb7870-e45f-4fc8-bb2d-5e4dc98aaaa5_large/sunset-over-ocean-stockcake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    max-width: 500px;
+    width: 90%;
+    padding: 40px 35px;
+   background-color: white;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+}
+
+.search{
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search button{
+   height: 30px;
+   width: 30px;
+   background-color: white;
+   border-radius: 50%;
+   padding-top: 1px;
+  
+}
+
+.search input{
+     width: 350px;
+     height: 30px;
+     border-radius: 30px;
+     padding: 10px;
+}
+
+.cloud{
+
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.weather{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    margin-top: 180px;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+.col1 ,.col2{
+    display: flex;
+    gap: 5px;
+}
+
+.temp{
+    margin-top: 40px;
+    font-size: 70px;
+} 
+
+.city{
+    margin-top: 10px;
+  font-size: 30px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+   margin-left: 25px;
+   margin-top: 10px;
+  display: none;
+}
+
