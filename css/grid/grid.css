@@ -1,0 +1,40 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+ }
+
+ .first1{
+    display: grid;
+    /* grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px; */
+    width: 400px;
+    gap: 10px;
+    height: 400px;
+    background-color: aqua;
+    /* padding: 10px; */
+    /*overflow due to gap*/
+    /* so we write */
+       grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .first{
+    background-color: red;
+ }
+
+  .second{
+    background-color: rgb(4, 185, 4);
+ }
+
+   .third{
+    background-color: yellow;
+ }
+   .forth{
+    background-color: blue;
+ }
