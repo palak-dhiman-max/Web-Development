@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-view-stars-night-sky_181624-8729.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: yellow;
+   box-shadow:  0px 0px 20px 10px yellow;
+}
+
+.mercury{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
+  
+}
+
+.venus{
+     height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.earth{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   
+}
+
+.mars{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+ 
+}
+
+.jupiter{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+.saturn{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+.uranus{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   
+    
+
+}
+
+.neptune{
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-left: 50px;
+    animation-name: solar;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+  
+
+     
+}
+
+.a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    left: 20px;
+    background-color: orange;
+     box-shadow:  0px 0px 20px 10px orange;
+
+}
+
+.b{
+    height: 50px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    position: relative;
+    bottom: 145px;
+    right: 150px;
+    background-color: skyblue;
+     box-shadow:  0px 0px 20px 10px skyblue;
+
+  
+}
+
+.c{
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid; 
+    position: relative;
+top: 200px;
+right: 200px;
+     background-color: blue;
+      box-shadow:  0px 0px 20px 10px blue;
+
+}
+
+.d{
+        height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    position: relative;
+     bottom: 80px;
+    right: 460px; 
+    background-color: red;
+     box-shadow:  0px 0px 20px 10px red;
+}
+
+.e{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    left: 30px;
+    background-color: brown;
+     box-shadow:  0px 0px 20px 10px brown;
+}
+
+.f{
+           height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+       position: relative;
+       bottom: 300px;
+    right: 120px;
+    background-color: beige;
+     box-shadow:  0px 0px 20px 10px beige;
+}
+
+.g{
+       height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    position: relative;
+top: 300px;
+right: 100px;
+
+    
+     box-shadow:  0px 0px 20px 10px aqua;
+    background-color: aqua;
+}
+
+.h{
+       height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    position: relative;
+     top: 250px;
+    right: 800px;  
+    background-color: aquamarine;
+     box-shadow:  0px 0px 20px 10px aquamarine;
+}
+
+@keyframes solar {
+    from{
+transform: rotate(0deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+} 
